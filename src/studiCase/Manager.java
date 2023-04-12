@@ -1,10 +1,10 @@
 package studiCase;
 
-import java.time.LocalDate;
+import java.time.LocalDate; 
 
 public class Manager extends Pekerja {
     private String departemen;
-
+    private String coba;
     public Manager(String nama, int usia, boolean
     b, String alamat, double gaji, LocalDate
     tahunMasuk, int jumlahAnak, String nik, boolean

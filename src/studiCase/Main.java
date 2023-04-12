@@ -59,7 +59,7 @@ public class Main {
 
         LocalDate tahunMasuk3 = LocalDate.of(2003, 4, 1);
         Pekerja pekerja3 = new Pekerja("Matt Maltese", 100, true, "Salt Lake City", 10000,  tahunMasuk3, 10, "12711444567", true);
-        System.out.println(pekerja3.toString());
+        System.out.println(pekerja3.toString()); 
         System.out.println("Bonus: " + pekerja1.getBonus());
         System.out.println("Tunjangan: " + pekerja1.getTunjangan());
         System.out.println("Gaji total: " + pekerja1.getGajiTotal());
