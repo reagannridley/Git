@@ -2,6 +2,7 @@ package ygSal;
 public class Student {
     private String name;
     private int mark;
+    private int nim;
     void setName(String n){
         name=n;
     }
