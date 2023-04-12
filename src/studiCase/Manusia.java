@@ -5,6 +5,7 @@ public class Manusia {
     protected boolean jenisKelamin;
     private String nik;
     private boolean menikah;
+    private String lulusan;
 
     public Manusia(String nama, boolean jenisKelamin, String nik, boolean menikah) {
         this.nama = nama;
